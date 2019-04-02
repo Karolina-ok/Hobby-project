@@ -1,0 +1,33 @@
+:root {
+    --main-dark-color: #40798C;
+    --white-color: #E9F1F7;
+    --pink-color: rgb(131, 18, 57);
+    --light-blue: #84C0C6;
+    --light-green: #96E0C1;
+    
+}
+
+.aboutMe {
+    background-image: url("https://images.pexels.com/photos/1201624/pexels-photo-1201624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+    height: 70vh;
+    background-size: cover;
+    background-position:center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.contact--wrapper {
+    border: 10px solid whitesmoke;
+    text-transform: uppercase;
+    padding:16px;
+    margin: 8px;
+    max-width: 720px;
+}
+
+.contact_content{
+    color: black;
+    background-color:rgba(221, 181, 181, 0.836);
+    padding-bottom:20px; 
+}

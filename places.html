@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Let's go!</title>
+        <link rel="shortcut icon" type="image/png" href="https://png.pngtree.com/svg/20170116/mountain__1201096.png"/>
+        <link rel="stylesheet" href="src/css/navigation.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/hero.css">
+        <link rel="stylesheet" href="src/css/services.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+        <link rel="stylesheet" href="src/css/places.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    </head>
+    <body>
+            <nav class="navigation">
+                <img class="logo" src="https://cdn1.iconfinder.com/data/icons/dangerous-animals/128/Jellyfish-512.png" alt="logo">
+                    <ul class="navigation--links">
+                        <li class="link-wrapper"><a href="index.html">Home</a></li>
+                        <li class="link-wrapper">Places</li>
+                        <li class="link-wrapper"><a href="food.html">Food</a></li>
+                        <li class="link-wrapper"><a href="weather.html">Weather</a></li>
+                        <li class="link-wrapper"><a href="contact.html">Contact</a></li>
+                    </ul>
+                    <!-- THIS IS MENU TOGGLE-->
+                    <div class="menu">
+                        <input type="checkbox" class="menu-toggle">
+        
+                        <span class="menu--hamburger-bar"></span>
+                        <span class="menu--hamburger-bar"></span>
+                        <span class="menu--hamburger-bar"></span>
+        
+                        <ul class="navigation--hidden-menu">
+                            <li class="link-wrapper"><a href="index.html">Home</a></li>
+                            <li class="link-wrapper">Places</li>
+                            <li class="link-wrapper"><a href="food.html">Food</a></li>
+                            <li class="link-wrapper"><a href="weather.html">Weather</a></li>
+                            <li class="link-wrapper"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <section class="places_header">
+                        <div class="places--wrapper">
+                            <div class="places--content">
+                                <h1>Choose destination!</h1>  
+                            </div>
+                        </div>
+                    </section>
+                <div class="listOfDestinations">
+                    <h1>Vote for your favourite travel destination!</h1>
+                        <br>
+                        <p class="placesHeader">Italy: Naples<button id="voteNaplesBtn" class="voteBtn" type="button">Click to vote</button></p>
+                            <img class="placesImg" src="https://handluggageonly.co.uk/wp-content/uploads/2018/02/Hand-Luggage-Only-8-5.jpg">
+                            <iframe class="placeMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96569.99726850101!2d14.17656191733993!3d40.854042114553486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0866db7afaeb%3A0xd23a43cc658cb87e!2sNaples%2C+Metropolitan+City+of+Naples%2C+Italy!5e0!3m2!1sen!2spl!4v1554066308698!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <p class="placesHeader">Greece: Crete   <button id="voteCreteBtn" class="button disabled" type="button" >...</button></p>
+                            <img class="placesImg" src="http://hamdenregionalchamber.com/wp-content/uploads/2018/01/Greece-1080x675.jpg">
+                            <iframe class="placeMap"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1668320.1703137218!2d23.790753065793968!3d35.24536187039973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x149b03d7c58fb783%3A0xbb32941128619998!2sCrete+Region%2C+Greece!5e0!3m2!1sen!2spl!4v1554066137001!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          
+                        <p class="placesHeader">Iceland: Reykjavik<button id="voteReykjavikBtn" class="button disabled" type="button" >...</button></p>
+                            <img class="placesImg" src="https://img.grouponcdn.com/deal/kscN8DUXYEHmZuLZ5Jcv/2k-2048x1229/v1/c700x420.jpg">
+                            <iframe class="placeMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1736344.2963505934!2d-21.48945354391057!3d64.84971827624206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d22b52a3eb6043%3A0x6f8a0434e5c1459a!2sIceland!5e0!3m2!1sen!2spl!4v1554109597129!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                   
+                        <p class="placesHeader">Canada: Ottawa <button id="voteOttawaBtn" class="button disabled" type="button">...</button></p>
+                            <img class="placesImg" src="https://www.tripsavvy.com/thmb/ArdxvzH0AQAkmDKpRHraiu1buj4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-534612574-5b11609743a10300368c9314.jpg">
+                            <iframe class="placeMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359536.14501443255!2d-76.08043161603517!3d45.2502974973903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b25f5113af%3A0x8a6a51e131dd15ed!2sOttawa%2C+ON%2C+Canada!5e0!3m2!1sen!2spl!4v1554109802125!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          
+                        <p class="placesHeader">Portugal: Lisbon <button id="voteLisbonBtn" class="button disabled" type="button">...</button></p>
+                            <img class="placesImg" src="https://handluggageonly.co.uk/wp-content/uploads/2016/10/Hand-Luggage-Only-12.jpg">
+                            <iframe class="placeMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24905.389031872608!2d-9.144925613331104!3d38.7138224690156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisbon%2C+Portugal!5e0!3m2!1sen!2spl!4v1554109933564!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          
+                </div>
+                
+                <footer class="footer">
+                    <ul class="icon--list">
+                        <li>
+                            <span class="icon--wrapper">
+                                <a href="https://www.facebook.com/karolina.cichocka.54"> <i class="fab fa-facebook"></i></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="icon--wrapper">
+                                <a href="https://github.com/Karolina-ok"> <i class="fab fa-github"></i></a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="icon--wrapper">
+                                <a href="https://www.linkedin.com/in/karolina-cichocka-1b4250182/"><i class="fab fa-linkedin-in"></i></a>
+                            </span>
+                        </li>
+                    </ul>     
+                    <p>Created by Karolina</p>
+                </footer>
+                        
+                <script type="module" src="assets/data.js"></script>
+                <script type="module" src="src/js/places.js"></script>
+    </body>
+</html>

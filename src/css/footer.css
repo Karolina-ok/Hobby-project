@@ -1,0 +1,61 @@
+:root {
+    --main-dark-color: #40798C;
+    --white-color: #E9F1F7;
+    --pink-color: rgb(131, 18, 57);
+    --light-blue: #84C0C6;
+    --light-green: #96E0C1;
+    
+}
+.footer {
+    padding: 56px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    flex-direction: column;
+    height: 30;
+    margin-top: -50px;
+    padding-bottom: 15px;
+}
+
+
+
+.icon--list {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    max-width: 300px;
+    justify-content: space-between;
+    color: rgb(77, 74, 74);
+}
+
+.icon--wrapper {
+    font-size: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+  
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+/*.content {
+  flex: 1 0 auto;
+}*/
+.footer {
+  flex-shrink: 0;
+}

@@ -1,0 +1,43 @@
+:root {
+    --main-dark-color: #40798C;
+    --white-color: #E9F1F7;
+    --pink-color: rgb(131, 18, 57);
+    --light-blue: #84C0C6;
+    --light-green: #96E0C1;
+    
+}
+
+html, body, ul, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+.content {
+    min-height: calc(100vh - 70px);
+}
+
+.footer {
+    height: 50px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px;
+    background-color: var(--white-color);
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}

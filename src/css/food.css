@@ -1,0 +1,62 @@
+:root {
+    --main-dark-color: #40798C;
+    --white-color: #E9F1F7;
+    --pink-color: rgb(131, 18, 57);
+    --light-blue: #84C0C6;
+    --light-green: #96E0C1;
+    
+}
+
+.food_container {
+    background-image: url("https://images.pexels.com/photos/699374/pexels-photo-699374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); 
+    height: 70vh;
+    background-size: cover;
+    background-position:center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.food--wrapper {
+    border: 10px solid whitesmoke;
+    text-transform: uppercase;
+    padding:16px;
+    margin: 8px;
+    max-width: 720px;
+}
+
+.food--content{
+    color: black;
+    background-color:rgba(221, 181, 181, 0.836);
+}
+
+h2, a {
+  
+    display: flex;
+    justify-content: center;
+    color: rgb(131, 18, 57);
+    font-weight: bold;
+}
+
+.dishes{
+    justify-content: center;
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wikipediaLink{
+    color: var(--pink-color);
+    font-weight: inherit;
+}
+
+.receipts{
+    padding:20px;
+}

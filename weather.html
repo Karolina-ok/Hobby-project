@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Let's go!</title>
+        <link rel="shortcut icon" type="image/png" href="https://png.pngtree.com/svg/20170116/mountain__1201096.png"/>
+        <link rel="stylesheet" href="src/css/navigation.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+        <link rel="stylesheet" href="src/css/weather.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navigation">
+            <img class="logo" src="https://cdn1.iconfinder.com/data/icons/dangerous-animals/128/Jellyfish-512.png" alt="logo">
+                <ul class="navigation--links">
+                    <li class="link-wrapper"><a href="index.html">Home</a></li>
+                    <li class="link-wrapper"><a href="places.html">Places</a></li>
+                    <li class="link-wrapper"><a href="food.html">Food</a></li>
+                    <li class="link-wrapper">Weather</li>
+                    <li class="link-wrapper"><a href="contact.html">Contact</a></li>
+                </ul>
+<!--THIS IS MENU TOGGLE-->
+        <div class="menu">
+            <input type="checkbox" class="menu-toggle">
+                <span class="menu--hamburger-bar"></span>
+                <span class="menu--hamburger-bar"></span>
+                <span class="menu--hamburger-bar"></span>
+            <ul class="navigation--hidden-menu">
+                <li class="link-wrapper"><a href="index.html">Home</a></li>
+                <li class="link-wrapper"><a href="places.html">Places</a></li>
+                <li class="link-wrapper"><a href="food.html">Food</a></li>
+                <li class="link-wrapper">Weather</li>
+                <li class="link-wrapper"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </nav>
+                <!--THIS IS WEATHER APP SECTION-->
+        <section class= "weatherTitle">
+            <div class="weather--wrapper">
+                <div class="weather--content">
+                    <h1>Check out the weather!</h1>  
+                </div>
+            </div>
+            
+            <div id="searchContainer">
+                <input type="text" placeholder="City name or zipcode" id="searchInput">
+                    <button id="searchBtn">Search</button>
+                        <div id="weatherContainer">
+                            <div id="weatherDescription"></div>
+                            <h1 id="cityHeader"></h1>
+                            <div id="weatherMain">
+                                <div id="temperature"></div>
+                                <div id="weatherDescriptionHeader"></div>
+                                <div><img id="documentIconImg"></div>
+                            </div>
+                            <hr>
+                            <div id="windSpeed" class="bottomDetails"></div>
+                            <div id="humidity" class="bottomDetails"></div>
+                </div>
+            </div>
+        </section>
+                <footer class="footer">
+                    <ul class="icon--list">
+                        <li>
+                            <span class="icon--wrapper">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="icon--wrapper">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="icon--wrapper">
+                                <i class="fab fa-linkedin-in"></i>
+                            </span>
+                        </li>
+                    </ul>
+                    <p>Created by Karolina</p>
+                </footer>
+        <script type="module" src="src/js/weather.js"></script>
+    </body>
+
+</html>

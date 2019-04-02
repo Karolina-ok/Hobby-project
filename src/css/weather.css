@@ -1,0 +1,119 @@
+:root {
+    --main-dark-color: #40798C;
+    --white-color: #E9F1F7;
+    --pink-color: rgb(131, 18, 57);
+    --light-blue: #84C0C6;
+    --light-green: #96E0C1;
+    
+}
+
+body {
+    background-image: url('../../default.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    /*text-shadow: 2px 2px 1px black;*/
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+#weatherContainer h1 {
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#searchContainer {
+    padding: 15px;
+}
+
+#searchContainer input {
+    width: 200px;
+}
+
+#searchContainer button {
+    background-color: var(--white-color);
+    width: 75px;
+}
+
+.searchControl {
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#weatherMain {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#weatherMain div {
+    display: inline-block;
+}
+
+#weatherDescriptionHeader {
+    font-size: 28px;
+    vertical-align: 50px;
+}
+
+#temperature {
+    font-size: 38px;
+    vertical-align: 25%;
+}
+
+.bottom-details {
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+section {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 70vh;
+}
+
+h1 {
+    color: var(--pink-color);
+}
+
+.weatherTitle {
+
+    height: 50vh;
+    background-size: cover;
+    background-position:center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather--wrapper {
+    border: 10px solid whitesmoke;
+    text-transform: uppercase;
+    padding:16px;
+    margin: 8px;
+    max-width: 500px;
+}
+
+.weather--content {
+    color: black;
+    background-color: bisque;
+}
+
+
+
